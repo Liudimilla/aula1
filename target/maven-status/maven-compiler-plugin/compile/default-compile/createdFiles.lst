@@ -1,0 +1,7 @@
+br\com\projetomilla\aula1\repositorio\ClienteRepositorio.class
+br\com\projetomilla\aula1\Aula1Application.class
+br\com\projetomilla\aula1\Controller\ClienteController.class
+br\com\projetomilla\aula1\entidade\Produto.class
+br\com\projetomilla\aula1\repositorio\ProdutoRepositorio.class
+br\com\projetomilla\aula1\entidade\Cliente.class
+br\com\projetomilla\aula1\Controller\ProdutoController.class
