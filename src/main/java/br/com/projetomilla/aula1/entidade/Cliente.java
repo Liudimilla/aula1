@@ -2,10 +2,17 @@ package br.com.projetomilla.aula1.entidade;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table
 public class Cliente {
+    public Cliente(String email,String senha){
+        this.email = email;
+        this.senha = senha;
+    }
     @Id
+
     private Integer id;
 
     public Integer getId() {
