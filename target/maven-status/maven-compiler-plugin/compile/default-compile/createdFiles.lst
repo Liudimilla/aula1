@@ -1,8 +1,14 @@
 br\com\projetomilla\aula1\service\ClienteService.class
-br\com\projetomilla\aula1\repositorio\ClienteRepositorio.class
-br\com\projetomilla\aula1\Aula1Application.class
+br\com\projetomilla\aula1\seguranca\TokenAuthenticationService.class
 br\com\projetomilla\aula1\Controller\ClienteController.class
 br\com\projetomilla\aula1\entidade\Produto.class
-br\com\projetomilla\aula1\repositorio\ProdutoRepositorio.class
 br\com\projetomilla\aula1\entidade\Cliente.class
+br\com\projetomilla\aula1\service\SecUserDetails.class
 br\com\projetomilla\aula1\Controller\ProdutoController.class
+br\com\projetomilla\aula1\seguranca\JWTAuthenticationFilter.class
+br\com\projetomilla\aula1\repositorio\ClienteRepositorio.class
+br\com\projetomilla\aula1\Aula1Application.class
+br\com\projetomilla\aula1\seguranca\WebSecurityConfig.class
+br\com\projetomilla\aula1\service\SecUserDetailsService.class
+br\com\projetomilla\aula1\repositorio\ProdutoRepositorio.class
+br\com\projetomilla\aula1\seguranca\JWTLoginFilter.class
