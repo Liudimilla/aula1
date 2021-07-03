@@ -10,6 +10,14 @@ import org.springframework.web.bind.annotation.*;
 public class ClienteController {
 @Autowired
     ClienteRepositorio clienteRepositorio;
+
+@PostMapping("login")
+public Cliente login(String email,String senha){
+   return clienteRepositorio.findByEmail(email);
+}
+
+
+
 @PostMapping("cliente")
     public void salvar(Cliente cliente){
      clienteRepositorio.save(cliente);

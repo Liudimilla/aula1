@@ -1,4 +1,4 @@
-package br.com.projetomilla.aula1;
+/*package br.com.projetomilla.aula1;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -11,3 +11,4 @@ class Aula1ApplicationTests {
 	}
 
 }
+*/
